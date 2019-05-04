@@ -1,0 +1,18 @@
+Before you do anything make sure your two file EchoClient.java and EchoServer.java
+are on your desktop
+-----------------------------------------------------------------------------------------------------------------------
+!.Go to your window button
+2.Search for CMD for windows or terminal for MAC
+3.On The command prompt you want to type cd desktop to go to your
+	desktop diretory. You want to open 2 command prompt or terminal
+4.Type javac echoserver.java on one of your prompt
+5.In the same prompt type java EchoServer 1111. Make sure the E in Echo and S in Server are in caps.
+	The reason for this is because when you compile the file, the prompt makae a class file called EchoServer.
+	1111 is the port number for the server.You can type any port number but in this format java EchoServer <portNumber>.
+6. Now the server should start displaying a message Waiting for Client. Go to your other command prompt and type 
+	"cd desktop".
+7. Next type "javac echoclient.java" to compile the source code
+8. Type "java EchoClient localhost 1111. Like befire the format is "java EchoClient <address> <portNumber>.
+	Make sure E in Echo and C in client are in caps.
+9. The prompt will tell you to type a message. Type any message you want and when you are done just hit enter.
+10. Now the program should send the message to the server and send it back to the client.
